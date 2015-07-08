@@ -2,8 +2,16 @@
 	"name": "rtwv-map",
 	"version": "1.0.0",
 	"description": "A real time website visitors map showing a server or websites traffic created by tailing log files",
+	"author": "Simon Jarvis",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/nomisoft/rtwv-map.git"
+	},
 	"dependencies": {
-		"express": "~4.10.2",
-		"socket.io": "1.2.0"
+		"express": "~4.10.0",
+		"socket.io": "~1.2.0",
+		"geoip-lite": "~1.1.0",
+		"glob": "~5.0.0",
+		"tail": "~0.4.0"
 	}
 }
