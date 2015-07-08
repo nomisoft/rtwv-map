@@ -1,0 +1,56 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: 
+	border-box; 
+}
+body { 
+	font: 13px Helvetica, Arial; 
+	background: #333; 
+	color: #ddd; 
+}
+#visits { 
+	margin: 0; 
+	padding: 0; 
+	width: 30%; 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+}
+#visits thead th { 
+	background: #666; 
+}
+#visits tbody td { 
+	padding: 5px 10px; 
+	overflow: hidden; 
+	background: #333; 
+}
+#visits tbody tr:nth-child(odd) td { 
+	background: #444; 
+}
+#map {
+	width: 70%;
+	position: absolute; top: 0; left: 0;
+}
+.countries {
+	fill: #999;
+	stroke: #666;
+	stroke-width: 0.5px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	vector-effect: non-scaling-stroke;
+}
+.route {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 0.5px;
+}
+.route-404 {
+	stroke: #A60000;
+}
+.route-200 {
+	stroke: #00A600;
+}
+.route-301, .route-302 {
+	stroke: #0066A6;
+} 

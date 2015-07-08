@@ -1,0 +1,9 @@
+{
+	"name": "rtwv-map",
+	"version": "1.0.0",
+	"description": "A real time website visitors map showing a server or websites traffic created by tailing log files",
+	"dependencies": {
+		"express": "~4.10.2",
+		"socket.io": "1.2.0"
+	}
+}
